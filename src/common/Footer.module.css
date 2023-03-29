@@ -1,0 +1,62 @@
+.section {
+  width: 100%;
+  height: 11rem;
+  background-color: #000;
+  color: #fff;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contentTitle {
+  font-weight: 300;
+  font-size: 1.4rem;
+  letter-spacing: 0.02rem;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 0 1.1rem 0;
+}
+
+.circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #fff;
+  margin: 0 0.4rem;
+  border-radius: 50%;
+  color: #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.circle:hover {
+  cursor: pointer;
+  background-color: #000000;
+  color: #fff;
+  transition: 0.7s;
+}
+
+.str {
+  font-size: 0.8rem;
+}
+
+.str2 {
+  opacity: 0.6;
+}
