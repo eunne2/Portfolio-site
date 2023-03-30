@@ -118,6 +118,11 @@
   font-size: 1.2rem;
 }
 
+.skillName2 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
 /* 반응형 (모바일웹) */
 @media screen and (max-width: 550px) {
   .sectionName {
@@ -187,5 +192,15 @@
     box-shadow: 5px 5px 5px #a17805;
   }
 
+  .toggleBox2 {
+    background-color: #fdbb06;
+  }
+
   /* 스킬 박스 */
+  .skillImg {
+    width: 6.7rem;
+    height: 6.7rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
 }
