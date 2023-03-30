@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .section {
   width: 100%;
   min-height: 30rem;
@@ -20,6 +28,7 @@
   position: relative;
 }
 
+/* 하얀색 원 배경 */
 .circle {
   position: absolute;
   z-index: 0;
@@ -31,6 +40,7 @@
   clip-path: circle(55rem at left 950px);
 }
 
+/* ABOUT ME */
 .sectionTitle {
   position: relative;
   z-index: 1;
@@ -45,7 +55,19 @@
   word-spacing: 1rem;
 }
 
+.line {
+  margin-top: 1rem;
+  height: 0.4rem;
+  width: 24.5rem;
+  background-color: black;
+}
+
+/* content(Photo 5 : Info 5) */
 .content {
+  font-family: "Pretendard-Regular";
+  word-break: keep-all;
+  line-height: 1.5rem;
+
   position: relative;
   z-index: 1;
   display: flex;
@@ -54,6 +76,7 @@
   padding: 2.5rem 2.5rem 0 2.5rem;
 }
 
+/* 사진 들어가는 섹션 */
 .photoSection {
   width: 50%;
   min-height: 30rem;
@@ -62,12 +85,95 @@
 
 .photo {
   width: 50%;
-  height: 100%;
   background-image: url(./imgs/me.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
+/* 포토 박스 안 개인정보 */
+.myInfo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.myInfoDiv {
+}
+
+.front {
+  font-size: 1.2rem;
+  color: #5a8ea3;
+}
+
+.name {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.birth,
+.mail {
+  font-size: 1.5rem;
+}
+
+.ulBox {
+  margin: 1.3rem 0 0 0;
+  min-height: 0;
+}
+
+.academin,
+.history {
+  font-size: 1.25rem;
+  font-weight: bolder;
+  margin: 0 0 1rem 1.3rem;
+}
+
+.academinInfo,
+.historyInfo {
+  font-size: 1rem;
+  color: #252525;
+  font-weight: 200;
+}
+
+/* 블로그, 깃허브 링크 */
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.linkTag {
+  text-decoration: none;
+}
+
+.blogLink,
+.githubLink {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7rem;
+}
+
+.blogLink {
+  background-color: #19ce60;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.githubLink {
+  background-color: #fff;
+  font-size: 3.5rem;
+  color: #000;
+}
+
+/* 자기소개 info */
 .infoSection {
   width: 50%;
   height: 100%;
@@ -109,6 +215,13 @@
     font-size: 3rem;
   }
 
+  .line {
+    margin-top: 1rem;
+    height: 0.4rem;
+    width: 12.5rem;
+    background-color: black;
+  }
+
   .container {
     font-size: 1.2rem;
     padding: 1.3rem;
@@ -126,7 +239,7 @@
   .photoSection {
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     min-height: 20rem;
     width: 100%;
@@ -143,15 +256,81 @@
     background-image: url(./imgs/me.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 1rem 0;
+    margin: 1rem auto;
   }
 
   .myInfo {
+    width: 94%;
     margin: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   .infoSection {
     width: 100%;
     height: 100%;
+  }
+
+  /* 포토 박스 안 개인정보 */
+  .front {
+    font-size: 1rem;
+    color: #5a8ea3;
+  }
+
+  .name {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  .birth,
+  .mail {
+    font-size: 1.3rem;
+  }
+
+  .academin,
+  .history {
+    font-size: 1.05rem;
+    font-weight: bolder;
+    margin: 0 0 1rem 0;
+  }
+
+  .academinInfo,
+  .historyInfo {
+    font-size: 1rem;
+    color: #252525;
+    font-weight: 200;
+  }
+
+  /* 블로그, 깃허브 링크 */
+  .link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .blogLink,
+  .githubLink {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.7rem;
+  }
+
+  .blogLink {
+    background-color: #19ce60;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .githubLink {
+    background-color: #fff;
+    font-size: 3rem;
   }
 }
