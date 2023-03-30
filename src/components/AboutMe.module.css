@@ -100,9 +100,6 @@
   justify-content: flex-end;
 }
 
-.myInfoDiv {
-}
-
 .front {
   font-size: 1.2rem;
   color: #5a8ea3;
@@ -177,7 +174,58 @@
 .infoSection {
   width: 50%;
   height: 100%;
-  background-color: aqua;
+}
+
+/* 커서 이벤트 */
+.Text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 2px 2px 5px gray;
+}
+
+.cursor {
+  min-height: 3rem;
+  font-size: 3rem;
+  animation: cursor 1s ease-in-out 0ms 4;
+}
+
+@keyframes cursor {
+  from {
+    border-right: 2px solid white;
+  }
+  to {
+    border-right: 2px solid black;
+  }
+}
+
+/* information */
+.infoBox {
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  margin: 3.7rem 0 0 1.5rem;
+}
+
+.info {
+  margin: 2rem 0;
+}
+
+/* 텍스트 애니메이션 */
+.textAni {
+  color: #000;
+  animation: textAni 2s ease forwards;
+}
+
+@keyframes textAni {
+  100% {
+    color: yellow;
+  }
 }
 
 /* circle & 사진 반응 */
@@ -202,10 +250,27 @@
     clip-path: circle(40rem at left 710px);
   }
 
+  .content {
+    flex-direction: column;
+  }
+
   .photoSection {
-    width: 50%;
+    width: 100%;
     min-height: 15rem;
     display: flex;
+  }
+
+  .infoSection {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .infoBox {
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    margin: 2rem 0 0 0;
   }
 }
 
@@ -332,5 +397,25 @@
   .githubLink {
     background-color: #fff;
     font-size: 3rem;
+  }
+
+  /* 커서 이벤트 */
+  .Text {
+    margin-top: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 2px 2px 5px gray;
+  }
+
+  .cursor {
+    min-height: 2.5rem;
+    font-size: 2.5rem;
+    animation: cursor 1s ease-in-out 0ms 4;
   }
 }
