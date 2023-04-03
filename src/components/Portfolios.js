@@ -18,7 +18,7 @@ import img2Path from "./imgs/img2.jpg";
 import img3Path from "./imgs/img3.jpg";
 
 function Portfolios() {
-  const [modal, setModal] = useState(false);
+  const [modal, setModal] = useState([false, false, false, false]);
 
   return (
     <section className={styles.section}>
@@ -94,11 +94,19 @@ function Portfolios() {
                 </div>
               </div>
             </div>
-            {modal && <Blog />}
+            {modal[0] && <Blog />}
             <Hr />
             <div className={styles.more}>
-              <span onClick={() => setModal((e) => !e)}>
-                {modal ? "닫기" : "더보기"}
+              <span
+                onClick={() =>
+                  setModal(
+                    modal.map((m, i) => {
+                      return i == 0 ? !m : m;
+                    })
+                  )
+                }
+              >
+                {modal[0] ? "닫기" : "더보기"}
               </span>
             </div>
           </div>
@@ -171,11 +179,19 @@ function Portfolios() {
                 </div>
               </div>
             </div>
-            {modal && <Mini />}
+            {modal[1] && <Mini />}
             <Hr />
             <div className={styles.more}>
-              <span onClick={() => setModal((e) => !e)}>
-                {modal ? "닫기" : "더보기"}
+              <span
+                onClick={() =>
+                  setModal(
+                    modal.map((m, i) => {
+                      return i == 1 ? !m : m;
+                    })
+                  )
+                }
+              >
+                {modal[1] ? "닫기" : "더보기"}
               </span>
             </div>
           </div>
@@ -261,11 +277,19 @@ function Portfolios() {
                 </div>
               </div>
             </div>
-            {modal && <Main />}
+            {modal[2] && <Main />}
             <Hr />
             <div className={styles.more}>
-              <span onClick={() => setModal((e) => !e)}>
-                {modal ? "닫기" : "더보기"}
+              <span
+                onClick={() =>
+                  setModal(
+                    modal.map((m, i) => {
+                      return i == 2 ? !m : m;
+                    })
+                  )
+                }
+              >
+                {modal[2] ? "닫기" : "더보기"}
               </span>
             </div>
           </div>
@@ -336,11 +360,19 @@ function Portfolios() {
                 </div>
               </div>
             </div>
-            {modal && <Site />}
+            {modal[3] && <Site />}
             <Hr />
             <div className={styles.more}>
-              <span onClick={() => setModal((e) => !e)}>
-                {modal ? "닫기" : "더보기"}
+              <span
+                onClick={() =>
+                  setModal(
+                    modal.map((m, i) => {
+                      return i == 3 ? !m : m;
+                    })
+                  )
+                }
+              >
+                {modal[3] ? "닫기" : "더보기"}
               </span>
             </div>
           </div>
