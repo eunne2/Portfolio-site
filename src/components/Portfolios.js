@@ -12,10 +12,45 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-// 이미지
+// Portfolio1 - Blog 이미지
+import blogPath from "./imgs/blog/blog.png";
+import blogPath2 from "./imgs/blog/blog2.png";
+import blogPath3 from "./imgs/blog/blog3.png";
+import blogPath4 from "./imgs/blog/blog4.png";
+import blogPath5 from "./imgs/blog/blog5.png";
+import blogPath6 from "./imgs/blog/blog6.png";
+import blogPath7 from "./imgs/blog/blog7.png";
+
+// Portfolio2 - OMO 이미지
+import omoPath from "./imgs/omo/omo.PNG";
+import omoPath2 from "./imgs/omo/omo2.PNG";
+import omoPath3 from "./imgs/omo/omo3.PNG";
+import omoPath4 from "./imgs/omo/omo4.png";
+import omoPath5 from "./imgs/omo/omo5.PNG";
+import omoPath6 from "./imgs/omo/omo6.PNG";
+import omoPath7 from "./imgs/omo/omo7.PNG";
+import omoPath8 from "./imgs/omo/omo8.PNG";
+import omoPath9 from "./imgs/omo/omo9.PNG";
+import omoPath10 from "./imgs/omo/omo10.PNG";
+import omoPath11 from "./imgs/omo/omo11.PNG";
+import omoPath12 from "./imgs/omo/omo12.PNG";
+
+// Portfolio3 - PIYONG 이미지
 import img1Path from "./imgs/img1.jpg";
 import img2Path from "./imgs/img2.jpg";
 import img3Path from "./imgs/img3.jpg";
+import piyongPath1 from "./imgs/piyong/piyong.PNG";
+import piyongPath2 from "./imgs/piyong/piyong2.PNG";
+import piyongPath3 from "./imgs/piyong/piyong3.PNG";
+import piyongPath4 from "./imgs/piyong/piyong4.PNG";
+import piyongPath5 from "./imgs/piyong/piyong5.PNG";
+import piyongPath6 from "./imgs/piyong/piyong6.PNG";
+import piyongPath7 from "./imgs/piyong/piyong7.PNG";
+import piyongPath8 from "./imgs/piyong/piyong8.PNG";
+import piyongPath9 from "./imgs/piyong/piyong9.PNG";
+import piyongPath10 from "./imgs/piyong/piyong10.PNG";
+import piyongPath11 from "./imgs/piyong/piyong11.png";
+import piyongPath12 from "./imgs/piyong/piyong12.PNG";
 
 function Portfolios() {
   const [modal, setModal] = useState([false, false, false, false]);
@@ -46,13 +81,25 @@ function Portfolios() {
                     onSlideChange={() => console.log("slide change")}
                   >
                     <SwiperSlide>
-                      <img src={img1Path} className={styles.myImg} />
+                      <img src={blogPath} className={styles.myImg} />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <img src={img2Path} className={styles.myImg} />
+                      <img src={blogPath2} className={styles.myImg} />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <img src={img3Path} className={styles.myImg} />
+                      <img src={blogPath3} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={blogPath4} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={blogPath5} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={blogPath6} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={blogPath7} className={styles.myImg} />
                     </SwiperSlide>
                     <br />
                   </Swiper>
@@ -129,13 +176,40 @@ function Portfolios() {
                     onSlideChange={() => console.log("slide change")}
                   >
                     <SwiperSlide>
-                      <img src={img1Path} className={styles.myImg} />
+                      <img src={omoPath} className={styles.myImg} />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <img src={img2Path} className={styles.myImg} />
+                      <img src={omoPath2} className={styles.myImg} />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <img src={img3Path} className={styles.myImg} />
+                      <img src={omoPath3} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={omoPath4} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={omoPath5} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={omoPath6} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={omoPath7} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={omoPath8} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={omoPath9} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={omoPath10} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={omoPath11} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={omoPath12} className={styles.myImg} />
                     </SwiperSlide>
                     <br />
                   </Swiper>
@@ -214,13 +288,40 @@ function Portfolios() {
                     onSlideChange={() => console.log("slide change")}
                   >
                     <SwiperSlide>
-                      <img src={img1Path} className={styles.myImg} />
+                      <img src={piyongPath1} className={styles.myImg} />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <img src={img2Path} className={styles.myImg} />
+                      <img src={piyongPath2} className={styles.myImg} />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <img src={img3Path} className={styles.myImg} />
+                      <img src={piyongPath3} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={piyongPath4} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={piyongPath5} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={piyongPath6} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={piyongPath7} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={piyongPath8} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={piyongPath9} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={piyongPath10} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={piyongPath11} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={piyongPath12} className={styles.myImg} />
                     </SwiperSlide>
                     <br />
                   </Swiper>
