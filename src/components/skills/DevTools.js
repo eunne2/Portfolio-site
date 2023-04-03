@@ -3,7 +3,6 @@ import figmaPath from "../imgs/figma.png";
 import vscPath from "../imgs/vsc.png";
 import pycharmPath from "../imgs/pycharm.png";
 import anacondaPath from "../imgs/anaconda.png";
-import eclipsPath from "../imgs/eclips.png";
 
 function DevTools() {
   return (
@@ -23,10 +22,6 @@ function DevTools() {
       <div className={styles.skill}>
         <img src={anacondaPath} className={styles.skillImg} />
         <div className={styles.skillName2}>Anaconda(1)</div>
-      </div>
-      <div className={styles.skill}>
-        <img src={eclipsPath} className={styles.skillImg} />
-        <div className={styles.skillName2}>Eclips(1)</div>
       </div>
     </>
   );

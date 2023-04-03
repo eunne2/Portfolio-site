@@ -46,6 +46,14 @@
   background-color: black;
 }
 
+/* level */
+.level {
+  padding: 0 2.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  word-break: keep-all;
+}
+
 /* content (토글 섹션) */
 .toggleSection {
   font-family: "Pretendard-Regular";
@@ -148,6 +156,14 @@
   .content {
     display: block;
     padding: 1rem;
+  }
+
+  /* level */
+  .level {
+    padding: 0 1.3rem;
+    color: #fff;
+    font-size: 1.1rem;
+    word-break: keep-all;
   }
 
   /* 토글 버튼 및 박스 */

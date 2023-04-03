@@ -24,6 +24,20 @@ function Mini() {
           <br />
           <br />
           <div>
+            <div className={styles.modalTitle}>[나의 역할]</div>
+            <div className={styles.modalContent}>
+              - 로그인/로그아웃 모달을 제작했습니다. <br />
+              - 입력 페이지의 배터리 모션을 담당했습니다.(ProgressBar 사용)
+              <br />
+              - 결과 및 삭제 페이지를 제작했습니다. <br />
+              - 더보기 버튼을 이용해 추가 정보가 5개씩 뜨도록 설정했습니다.
+              <br />- DB에 저장된 LED 색상을 자바스크립트로 rgb 스타일을 지정해
+              시각화 하였습니다.
+            </div>
+          </div>
+          <br />
+          <br />
+          <div>
             <div className={styles.modalTitle}>[경험]</div>
             <div className={styles.modalContent}>
               - 협업으로 만들어본 최초의 웹 프로젝트로써, 협업의 어려움과

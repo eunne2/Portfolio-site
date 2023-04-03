@@ -1,7 +1,6 @@
 import styles from "../Skills.module.css";
 import reactPath from "../imgs/react.png";
 import djangoPath from "../imgs/django.png";
-import springPath from "../imgs/spring.png";
 
 function Framework() {
   return (
@@ -17,10 +16,6 @@ function Framework() {
       <div className={styles.skill}>
         <img src={djangoPath} className={styles.skillImg} />
         <div className={styles.skillName}>Django(1)</div>
-      </div>
-      <div className={styles.skill}>
-        <img src={springPath} className={styles.skillImg} />
-        <div className={styles.skillName}>Spring(1)</div>
       </div>
     </>
   );

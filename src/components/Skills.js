@@ -27,6 +27,13 @@ function Skills() {
           <div className={styles.sectionName}>Skills</div>
           <div data-aos="slide-right" className={styles.line}></div>
         </div>
+
+        {/* Skill Level */}
+        <div className={styles.level}>
+          · Skill Level : Basic(1) / Demonstrating(2) / Proficient(3) /
+          Expert(4)
+        </div>
+
         {/* skill 카드1 */}
         <div className={styles.toggleSection} data-aos="slide-right">
           <div className={styles.toggleBtnBox}>
