@@ -136,6 +136,10 @@
     background-color: black;
   }
 
+  .sectionTitle {
+    padding: 1.2rem;
+  }
+
   .container {
     font-size: 1.2rem;
     padding: 1.3rem;

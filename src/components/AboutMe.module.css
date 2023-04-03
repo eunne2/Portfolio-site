@@ -219,9 +219,13 @@
 /* 텍스트 애니메이션 */
 .textAni {
   color: #000;
-  animation: textAni 2s ease forwards;
+  /* animation: textAni 1s !important; */
 }
 
+.textAni:hover {
+  color: yellow;
+  transition: color 0.5s;
+}
 @keyframes textAni {
   100% {
     color: yellow;
@@ -289,7 +293,6 @@
 
   .container {
     font-size: 1.2rem;
-    padding: 1.3rem;
   }
 
   .circle {
@@ -310,6 +313,7 @@
     width: 100%;
     margin-top: 0;
     background-color: #fff;
+    border-radius: 1rem;
   }
 
   .photo {
