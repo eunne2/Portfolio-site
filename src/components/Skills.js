@@ -68,7 +68,7 @@ function Skills() {
         <div
           className={styles.toggleSection}
           data-aos="slide-left"
-          style={{ marginBottom: "3rem" }}
+          style={{ marginBottom: "3rem", overflow: "hidden" }}
         >
           <div className={styles.toggleBtnBox}>
             <button
