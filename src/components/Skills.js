@@ -35,7 +35,11 @@ function Skills() {
         </div>
 
         {/* skill 카드1 */}
-        <div className={styles.toggleSection} data-aos="slide-right">
+        <div
+          className={styles.toggleSection}
+          data-aos="slide-right"
+          style={{ overflow: "hidden" }}
+        >
           <div className={styles.toggleBtnBox}>
             <button
               className={styles.toggleBtn}
@@ -75,7 +79,7 @@ function Skills() {
         <div
           className={styles.toggleSection}
           data-aos="slide-left"
-          style={{ marginBottom: "3rem", overflow: "hidden" }}
+          style={{ marginBottom: "3rem" }}
         >
           <div className={styles.toggleBtnBox}>
             <button

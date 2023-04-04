@@ -18,6 +18,7 @@
   width: 100%;
   min-height: 100vh;
   background-color: #89ad91;
+  padding-top: 4rem;
 
   display: flex;
   flex-wrap: wrap;
