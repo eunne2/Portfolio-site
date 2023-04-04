@@ -36,9 +36,6 @@ import omoPath11 from "./imgs/omo/omo11.PNG";
 import omoPath12 from "./imgs/omo/omo12.PNG";
 
 // Portfolio3 - PIYONG 이미지
-import img1Path from "./imgs/img1.jpg";
-import img2Path from "./imgs/img2.jpg";
-import img3Path from "./imgs/img3.jpg";
 import piyongPath1 from "./imgs/piyong/piyong.PNG";
 import piyongPath2 from "./imgs/piyong/piyong2.PNG";
 import piyongPath3 from "./imgs/piyong/piyong3.PNG";
@@ -51,6 +48,16 @@ import piyongPath9 from "./imgs/piyong/piyong9.PNG";
 import piyongPath10 from "./imgs/piyong/piyong10.PNG";
 import piyongPath11 from "./imgs/piyong/piyong11.png";
 import piyongPath12 from "./imgs/piyong/piyong12.PNG";
+
+// Portfolio4 - PIYONG 이미지
+import portPath from "./imgs/portfolio/portfolio.PNG";
+import portPath2 from "./imgs/portfolio/portfolio2.PNG";
+import portPath3 from "./imgs/portfolio/portfolio3.png";
+import portPath4 from "./imgs/portfolio/portfolio4.PNG";
+import portPath5 from "./imgs/portfolio/portfolio5.png";
+import portPath6 from "./imgs/portfolio/portfolio6.png";
+import portPath7 from "./imgs/portfolio/portfolio7.PNG";
+import portPath8 from "./imgs/portfolio/portfolio8.PNG";
 
 function Portfolios() {
   const [modal, setModal] = useState([false, false, false, false]);
@@ -413,13 +420,28 @@ function Portfolios() {
                     onSlideChange={() => console.log("slide change")}
                   >
                     <SwiperSlide>
-                      <img src={img1Path} className={styles.myImg} />
+                      <img src={portPath} className={styles.myImg} />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <img src={img2Path} className={styles.myImg} />
+                      <img src={portPath2} className={styles.myImg} />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <img src={img3Path} className={styles.myImg} />
+                      <img src={portPath3} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={portPath4} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={portPath5} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={portPath6} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={portPath7} className={styles.myImg} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src={portPath8} className={styles.myImg} />
                     </SwiperSlide>
                     <br />
                   </Swiper>
@@ -445,7 +467,10 @@ function Portfolios() {
                     </div>
                     <div className={styles.text}>
                       <span style={{ fontWeight: "600" }}>WebSite</span> :{" "}
-                      <a href="#" target="_blank">
+                      <a
+                        href="https://web-portfolio-luj2cldtwtwnh.sel3.cloudtype.app/"
+                        target="_blank"
+                      >
                         Eunhye's Portfolio Site
                       </a>
                     </div>
