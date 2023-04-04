@@ -8,12 +8,12 @@ function Main() {
           <div>
             <div className={styles.modalTitle}>[프로젝트 설명]</div>
             <div className={styles.modalContent}>
-              - omoRobot을 활용하여 자율주행 순찰로봇, 도로 범죄자 순찰 서비스를
+              - omoRobot을 활용하여 원격제어 순찰로봇, 도로 범죄자 순찰 서비스를
               제공하는 프로젝트입니다. <br />- SpringBoot와 React-app을 사용하여
-              사이트를 제작하였습니다. <br />
-              - 사용자에게 서비스를 제공하는 것에 초점을 맞춰 사이트를
-              제작했습니다. <br />- 카카오 로그인, 블로그 CRUD 방식의 순찰요청
-              및 커뮤니티 페이지, ROS 로봇 통신 등의 기술을 담았습니다.
+              사이트를 제작했습니다. <br />
+              - 사용자에게 서비스를 제공하는 것에 초점을 맞췄습니다.
+              <br />- 카카오 로그인, 블로그 CRUD 방식의 순찰요청 및 커뮤니티
+              페이지, ROS 로봇 통신 등의 기술을 담았습니다.
             </div>
           </div>
           <br />
@@ -34,11 +34,12 @@ function Main() {
           <div>
             <div className={styles.modalTitle}>[경험]</div>
             <div className={styles.modalContent}>
-              - 역할 분담, 통합을 위한 Git의 중요성을 깨달았습니다. <br />
-              - React 라이브러리를 활용하여 웹사이트를 제작할 수 있었습니다.
+              - 역할 분담, 통합을 위한 코드 관리 및 협업의 중요성을
+              깨달았습니다. <br />
+              - React 라이브러리를 활용하여 웹사이트를 제작했습니다.
               <br />
-              - axios, feach를 이용해 RestFul-API를 연결할 수 있었습니다. <br />
-              - DB를 배포하여, 로컬 DB가 아닌 외부 DB와의 연결을 완료했습니다.{" "}
+              - axios, feach를 이용해 RestFul-API를 연결했습니다. <br />
+              - 로컬 DB가 아닌 외부 DB와의 연결을 완료했습니다.
               <br />- CloudType을 이용해 웹사이트를 배포했습니다.
             </div>
           </div>

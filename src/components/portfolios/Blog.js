@@ -19,10 +19,10 @@ function Blog() {
           <div>
             <div className={styles.modalTitle}>[경험]</div>
             <div className={styles.modalContent}>
-              - Back-end에 대한 이해를 할 수 있었습니다. <br />
-              - 데이터의 CRUD 원리와 과정을 구현할 수 있었습니다. <br />
+              - Back-end 시스템의 전반적인 이해를 할 수 있었습니다. <br />
+              - 데이터베이스의 CRUD를 모두 구현하였습니다. <br />
               - Django 프레임워크 학습 및 사용을 익혔습니다. <br />- BootStrap
-              학습 및 사용법에 익숙해졌습니다.
+              학습 및 사용법을 익혔습니다.
             </div>
           </div>
         </div>
