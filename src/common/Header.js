@@ -13,16 +13,16 @@ function Header() {
   return (
     <section className={styles.section}>
       <Nav isScroll={isScroll}>
-        <a href="#" className={styles.menu}>
+        <a href="#main" className={styles.menu}>
           Main
         </a>
-        <a href="#" className={styles.menu}>
+        <a href="#aboutMe" className={styles.menu}>
           About Me
         </a>
-        <a href="#" className={styles.menu}>
+        <a href="#skills" className={styles.menu}>
           Skills
         </a>
-        <a href="#" className={styles.menu}>
+        <a href="#portfolios" className={styles.menu}>
           Portfolios
         </a>
       </Nav>

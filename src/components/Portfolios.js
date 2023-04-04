@@ -56,7 +56,7 @@ function Portfolios() {
   const [modal, setModal] = useState([false, false, false, false]);
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="portfolios">
       <div className={styles.container}>
         {/* 타이틀 */}
         <div className={styles.sectionTitle}>

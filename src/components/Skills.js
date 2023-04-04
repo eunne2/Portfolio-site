@@ -20,7 +20,7 @@ function Skills() {
   const [num4, setNum4] = useState(3);
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="skills">
       <div className={styles.container}>
         {/* 타이틀 */}
         <div className={styles.sectionTitle}>

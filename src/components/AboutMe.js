@@ -39,7 +39,7 @@ function AboutMe() {
   };
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="aboutMe">
       <div className={styles.container}>
         {/* 배경 circle */}
         <div className={styles.circle}></div>

@@ -2,7 +2,7 @@ import styles from "./Main.module.css";
 
 function Main() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="main">
       <div className={styles.container}>
         <div className={styles.center}>
           <h1>
