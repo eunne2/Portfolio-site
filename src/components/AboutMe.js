@@ -73,7 +73,7 @@ function AboutMe() {
                 <ul className={styles.history}>
                   이력
                   <li className={styles.historyInfo}>
-                    &nbsp;· 23.04. 국비지원 개발자 프로그램 수료
+                    &nbsp;· 23.04. 국비지원 개발자 프로그램 수료 및 우수상 수상
                     (미래융합교육원)
                   </li>
                 </ul>
